@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+
+bool AND(bool a, bool b) {return a&&b;}
+bool NAND(bool a, bool b){return !(a&&b);}
+bool NOT (bool a){return !a;}
+bool OR(bool a, bool b)  {return a||b;}
+bool NOR(bool a, bool b) {return !(a||b);}
+bool XOR(bool a, bool b) {return a !=b;}
+bool XNOR(bool a, bool b){return a==b;}
+int main(){
+  bool a= true,  b= false;
+  cout <<"AND(1,0) ="  <<AND(a,b) <<endl;
+  cout <<"NAND(1,0) =" <<NAND(a,b) <<endl;
+  cout <<"NOT(1) ="  <<NOT(a)<<endl;
+  cout <<"OR(1,0) =" <<OR(a,b)<<endl;
+  cout <<"XOR(1,0) =" <<XOR(a,b)<<endl;
+  cout <<"XNOR(1,0) =" << XNOR(a,b)<<endl;
+  cout <<"NOR(1,0) ="  <<NOR(a,b)<<endl;
+}
