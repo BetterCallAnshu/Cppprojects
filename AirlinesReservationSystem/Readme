@@ -1,0 +1,26 @@
+A simple C++ airline reservation system that manages passenger bookings, cancellations, searches, and reservation updates using a linked-list structure. The program runs through a menu-driven interface for easy interaction.
+
+Features
+Add new reservations
+Cancel reservations
+Search for passengers
+Modify existing bookings
+View full passenger list
+Generate reservation reports
+
+File Structure
+airlines.h      → class & struct definitions  
+airlines.cpp    → function implementations  
+main.cpp        → menu + program entry  
+How to Run
+
+Compile all files:
+
+g++ main.cpp airlines.cpp -o airline_app
+
+Run the program:
+
+./airline_app
+Requirements
+GCC or any C++ compiler
+VS Code or any C++-compatible IDE
